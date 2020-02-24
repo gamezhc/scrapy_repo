@@ -26,7 +26,6 @@ class CggcspriderSpider(scrapy.Spider):
             item = PrjbenchmarkItem()
             item["title"] = tr.xpath("./td[1]/a[@class='new_link1']/@title").extract_first()
 
-            # print(item["title"])
             # 关键字过滤
             pos = item["title"].find(keyword)
             if pos != -1:
@@ -40,12 +39,9 @@ class CggcspriderSpider(scrapy.Spider):
                     callback=self.parse_detail,
                     meta={"items": item}
                 )
-
             else:
                 item.popitem()
-            print(item)
-
-
+            # print(item)
 
         # 翻页操作，对于使用Ajax动态加载的翻页
         # 使用Post 进行翻页操作
@@ -83,7 +79,18 @@ class CggcspriderSpider(scrapy.Spider):
             pass
 
     def parse_detail(self, response):
+        """
+        提取content和content_img
+        提取出来的content需要进行处理
+        用pipeline处理
+        :param response:
+        :return:
+        """
         items = response.meta["items"]
+        items["content"] = response.xpath("//tr/td[@class='bt_content']/div//p/text()").extract_first()
+        items["content_img"] = response.xpath("//tr/td[@class='bt_content']/div//p/img/@src").extract()
+        items["content_img"] = ["www.gzbgj.com"+i for i in items["content_img"]]
+
         yield items
         # logger.warning(items)
         pass
