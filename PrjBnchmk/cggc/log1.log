@@ -97,3 +97,317 @@
  'href': 'http://www.gzbgj.com/art/2019/9/10/art_7615_1974878.html',
  'publish_date': '2019-09-10',
  'title': '房建业务再突破 公司签约格林纳达城市综合体I期项目合同'}
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '2月17日，中国能建葛洲坝国际公司成功签约合同金额为5亿美元（约合人民币35亿元）的乌干达500MW光伏发电项目。这是葛洲坝集团践行绿色发展理念，推进中国新能源产业协同“走出去”，推动全球能源结构转型和可持续发展的重要成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/2002182035302123568.jpg'],
+ 'country': 'No Country Found',
+ 'href': 'http://www.gzbgj.com/art/2020/2/18/art_7615_2068979.html',
+ 'publish_date': '2020-02-18',
+ 'title': '喜报！中国能建葛洲坝签约35亿元光伏发电项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '2月17日，中国能建葛洲坝国际公司成功签约合同金额为5亿美元（约合人民币35亿元）的乌干达500MW光伏发电项目。这是葛洲坝集团践行绿色发展理念，推进中国新能源产业协同“走出去”，推动全球能源结构转型和可持续发展的重要成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/2002182035302123568.jpg'],
+ 'country': 'No Country Found',
+ 'href': 'http://www.gzbgj.com/art/2020/2/18/art_7615_2068979.html',
+ 'publish_date': '2020-02-18',
+ 'title': '喜报！中国能建葛洲坝签约35亿元光伏发电项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '12月30日，中国能建葛洲坝国际公司与菲律宾联合水务公司在京签署菲律宾圣佩德罗市供水厂项目EPC合同，在菲律宾水务市场迈出了崭新的一步。这是公司践行集团专业化改造总体部署，积极推动非建业务“走出去”的又一成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/1912311644420726494.jpg'],
+ 'country': '菲律宾',
+ 'href': 'http://www.gzbgj.com/art/2019/12/31/art_7615_2045003.html',
+ 'publish_date': '2019-12-31',
+ 'title': '公司签约菲律宾圣佩德罗市供水厂项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '12月30日，中国能建葛洲坝国际公司与菲律宾联合水务公司在京签署菲律宾圣佩德罗市供水厂项目EPC合同，在菲律宾水务市场迈出了崭新的一步。这是公司践行集团专业化改造总体部署，积极推动非建业务“走出去”的又一成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/1912311644420726494.jpg'],
+ 'country': '菲律宾',
+ 'href': 'http://www.gzbgj.com/art/2019/12/31/art_7615_2045003.html',
+ 'publish_date': '2019-12-31',
+ 'title': '公司签约菲律宾圣佩德罗市供水厂项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' 1月16日，中国能建葛洲坝国际公司与墨西哥BG '
+            'Titan能源矿产公司在京签署墨西哥1000MW光伏电站项目EPC合同协议书。该项目是葛洲坝集团在墨西哥签约的第一个大型光伏电站项目，也是近期在拉丁美洲签约的最大规模光伏电站项目，是葛洲坝集团推进新能源业务“走出去”的重要成果。公司副总经理陈向东参加签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/2001171618098306515.jpg',
+                 'www.gzbgj.com/picture/0/2001171618207793158.jpg'],
+ 'country': '墨西哥',
+ 'href': 'http://www.gzbgj.com/art/2020/1/17/art_7615_2055974.html',
+ 'publish_date': '2020-01-17',
+ 'title': '1000MW！公司签约墨西哥光伏电站项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' 1月16日，中国能建葛洲坝国际公司与墨西哥BG '
+            'Titan能源矿产公司在京签署墨西哥1000MW光伏电站项目EPC合同协议书。该项目是葛洲坝集团在墨西哥签约的第一个大型光伏电站项目，也是近期在拉丁美洲签约的最大规模光伏电站项目，是葛洲坝集团推进新能源业务“走出去”的重要成果。公司副总经理陈向东参加签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/2001171618098306515.jpg',
+                 'www.gzbgj.com/picture/0/2001171618207793158.jpg'],
+ 'country': '墨西哥',
+ 'href': 'http://www.gzbgj.com/art/2020/1/17/art_7615_2055974.html',
+ 'publish_date': '2020-01-17',
+ 'title': '1000MW！公司签约墨西哥光伏电站项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.spiders.cggcSpider] WARNING: fail to next page
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '新年伊始，喜迎开门红。1月3日，在新任埃及驻华大使穆罕默德·巴德里阁下的见证下，中国能建葛洲坝集团与埃及孔雀投资公司在京签署埃及500MW光伏电站EPC合同。集团股份公司党委书记、董事长陈晓华出席签约仪式，葛洲坝国际公司党委书记、董事长吕泽翔，党委副书记、副董事长李萍莉参加签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/2001031928374638119.jpg',
+                 'www.gzbgj.com/picture/0/2001031928589071456.jpg',
+                 'www.gzbgj.com/picture/0/2001031930058994033.jpg'],
+ 'country': '埃及',
+ 'href': 'http://www.gzbgj.com/art/2020/1/3/art_7615_2047270.html',
+ 'publish_date': '2020-01-03',
+ 'title': '新年第一单！公司签约埃及500兆瓦光伏电站项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '新年伊始，喜迎开门红。1月3日，在新任埃及驻华大使穆罕默德·巴德里阁下的见证下，中国能建葛洲坝集团与埃及孔雀投资公司在京签署埃及500MW光伏电站EPC合同。集团股份公司党委书记、董事长陈晓华出席签约仪式，葛洲坝国际公司党委书记、董事长吕泽翔，党委副书记、副董事长李萍莉参加签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/2001031928374638119.jpg',
+                 'www.gzbgj.com/picture/0/2001031928589071456.jpg',
+                 'www.gzbgj.com/picture/0/2001031930058994033.jpg'],
+ 'country': '埃及',
+ 'href': 'http://www.gzbgj.com/art/2020/1/3/art_7615_2047270.html',
+ 'publish_date': '2020-01-03',
+ 'title': '新年第一单！公司签约埃及500兆瓦光伏电站项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '11月25日，中国能建葛洲坝国际公司与AGILIDAD油气运输基础设施公司签署墨西哥科利马州油气储备输送项目EPC合同。项目的成功签约是葛洲坝集团继墨西哥萨卡特卡斯州工业园EPC项目后加大墨西哥市场深耕，推进油气业务“走出去”又一重要成果，将为中拉“一带一路”建设注入新动力。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911292033338165443.jpg',
+                 'www.gzbgj.com/picture/0/1911292033476803424.jpg'],
+ 'country': '墨西哥',
+ 'href': 'http://www.gzbgj.com/art/2019/11/29/art_7615_2027255.html',
+ 'publish_date': '2019-11-29',
+ 'title': 'CGGC签约墨西哥科利马州油气储备输送EPC项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '11月25日，中国能建葛洲坝国际公司与AGILIDAD油气运输基础设施公司签署墨西哥科利马州油气储备输送项目EPC合同。项目的成功签约是葛洲坝集团继墨西哥萨卡特卡斯州工业园EPC项目后加大墨西哥市场深耕，推进油气业务“走出去”又一重要成果，将为中拉“一带一路”建设注入新动力。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911292033338165443.jpg',
+                 'www.gzbgj.com/picture/0/1911292033476803424.jpg'],
+ 'country': '墨西哥',
+ 'href': 'http://www.gzbgj.com/art/2019/11/29/art_7615_2027255.html',
+ 'publish_date': '2019-11-29',
+ 'title': 'CGGC签约墨西哥科利马州油气储备输送EPC项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' 当地时间 11月11日，在中国国家主席习近平和希腊总理米佐塔基斯的见证下，希腊MINOS '
+            '50MW光热发电项目多边合作协议成功签署。中国能建党委书记、董事长汪建平，中国工商银行董事长陈四清，英国Nur '
+            'Energie公司董事会主席Kevin Sara，希腊PRENECON公司首席执行官Dimitris '
+            'Bouras，在希腊总理府分别代表项目EPC联营体牵头方、项目融资方、项目开发商和属地合作方在协议上签字。这是国际多边合作及中国-中东欧“17+1”能源合作的重要成果，将为推动共建“一带一路”高质量发展注入新动力。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911121834225608250.jpg',
+                 'www.gzbgj.com/picture/0/1911130937239096879.jpg',
+                 'www.gzbgj.com/picture/0/1911121834476183158.jpg'],
+ 'country': '希腊',
+ 'href': 'http://www.gzbgj.com/art/2019/11/12/art_7615_2016301.html',
+ 'publish_date': '2019-11-12',
+ 'title': '中希两国领导人见证希腊MINOS 50MW光热发电项目签约'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' 当地时间 11月11日，在中国国家主席习近平和希腊总理米佐塔基斯的见证下，希腊MINOS '
+            '50MW光热发电项目多边合作协议成功签署。中国能建党委书记、董事长汪建平，中国工商银行董事长陈四清，英国Nur '
+            'Energie公司董事会主席Kevin Sara，希腊PRENECON公司首席执行官Dimitris '
+            'Bouras，在希腊总理府分别代表项目EPC联营体牵头方、项目融资方、项目开发商和属地合作方在协议上签字。这是国际多边合作及中国-中东欧“17+1”能源合作的重要成果，将为推动共建“一带一路”高质量发展注入新动力。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911121834225608250.jpg',
+                 'www.gzbgj.com/picture/0/1911130937239096879.jpg',
+                 'www.gzbgj.com/picture/0/1911121834476183158.jpg'],
+ 'country': '希腊',
+ 'href': 'http://www.gzbgj.com/art/2019/11/12/art_7615_2016301.html',
+ 'publish_date': '2019-11-12',
+ 'title': '中希两国领导人见证希腊MINOS 50MW光热发电项目签约'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '11月7日，中国能建葛洲坝集团与锡兰电力局在科伦坡签署斯里兰卡莫拉高拉水电站土建标现汇项目合同。这是中资企业近五年在斯里兰卡签约的首个中大型电力项目，对有效缓解斯里兰卡电力短缺，防治洪灾，促进中斯两国绿色能源合作和发展具有重要意义。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911081542152237156.jpg'],
+ 'country': '斯里兰卡',
+ 'href': 'http://www.gzbgj.com/art/2019/11/8/art_7615_2013672.html',
+ 'publish_date': '2019-11-08',
+ 'title': '中国能建葛洲坝集团签约斯里兰卡莫拉高拉水电站项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '11月7日，中国能建葛洲坝集团与锡兰电力局在科伦坡签署斯里兰卡莫拉高拉水电站土建标现汇项目合同。这是中资企业近五年在斯里兰卡签约的首个中大型电力项目，对有效缓解斯里兰卡电力短缺，防治洪灾，促进中斯两国绿色能源合作和发展具有重要意义。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911081542152237156.jpg'],
+ 'country': '斯里兰卡',
+ 'href': 'http://www.gzbgj.com/art/2019/11/8/art_7615_2013672.html',
+ 'publish_date': '2019-11-08',
+ 'title': '中国能建葛洲坝集团签约斯里兰卡莫拉高拉水电站项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '近日，中国能建葛洲坝国际公司签署莱索托王国马菲腾特别经济区项目EPC框架合同协议书。这是公司践行集团专业化改造总体要求，加快推进海外工业园区等新兴业务，培育新的国际业务增长点的重要成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911201420131233943.jpg',
+                 'www.gzbgj.com/picture/0/1911201420325655045.png'],
+ 'country': '莱索托',
+ 'href': 'http://www.gzbgj.com/art/2019/11/20/art_7615_2021347.html',
+ 'publish_date': '2019-11-20',
+ 'title': 'CGGC签约莱索托工业园EPC项目'}
+2020-03-03 21:22:20 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '近日，中国能建葛洲坝国际公司签署莱索托王国马菲腾特别经济区项目EPC框架合同协议书。这是公司践行集团专业化改造总体要求，加快推进海外工业园区等新兴业务，培育新的国际业务增长点的重要成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911201420131233943.jpg',
+                 'www.gzbgj.com/picture/0/1911201420325655045.png'],
+ 'country': '莱索托',
+ 'href': 'http://www.gzbgj.com/art/2019/11/20/art_7615_2021347.html',
+ 'publish_date': '2019-11-20',
+ 'title': 'CGGC签约莱索托工业园EPC项目'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:22:20 [cggc.pipelines] WARNING: {'content': ' '
+            '11月14日，阿联酋乌姆盖万150MIGD海水淡化项目EPC合同签约仪式在阿联酋首都阿布扎比举行。中国葛洲坝集团股份公司党委书记、董事长陈晓华，ACWA '
+            'Power 董事局主席Mohammed Abunayyan出席签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911151413238733028.jpg',
+                 'www.gzbgj.com/picture/0/1911151413529223665.jpg'],
+ 'country': 'No Country Found',
+ 'href': 'http://www.gzbgj.com/art/2019/11/15/art_7615_2018357.html',
+ 'publish_date': '2019-11-15',
+ 'title': '全球Top5 海水淡化项目在阿联酋签约'}
+2020-03-03 21:22:21 [scrapy.core.scraper] ERROR: Error processing {'content': ' '
+            '11月14日，阿联酋乌姆盖万150MIGD海水淡化项目EPC合同签约仪式在阿联酋首都阿布扎比举行。中国葛洲坝集团股份公司党委书记、董事长陈晓华，ACWA '
+            'Power 董事局主席Mohammed Abunayyan出席签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911151413238733028.jpg',
+                 'www.gzbgj.com/picture/0/1911151413529223665.jpg'],
+ 'country': 'No Country Found',
+ 'href': 'http://www.gzbgj.com/art/2019/11/15/art_7615_2018357.html',
+ 'publish_date': '2019-11-15',
+ 'title': '全球Top5 海水淡化项目在阿联酋签约'}
+Traceback (most recent call last):
+  File "c:\users\administrator\appdata\local\programs\python\python38\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 42, in process_item
+    self.insert_db(item)
+  File "E:\git_repo\Scrapy\PrjBnchmk\cggc\cggc\pipelines.py", line 68, in insert_db
+    self.db_cur.execute(insert_sql)
+sqlite3.OperationalError: table cggc has no column named country
+2020-03-03 21:24:41 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:41 [cggc.pipelines] WARNING: {'content': ' '
+            '2月17日，中国能建葛洲坝国际公司成功签约合同金额为5亿美元（约合人民币35亿元）的乌干达500MW光伏发电项目。这是葛洲坝集团践行绿色发展理念，推进中国新能源产业协同“走出去”，推动全球能源结构转型和可持续发展的重要成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/2002182035302123568.jpg'],
+ 'country': 'No Country Found',
+ 'href': 'http://www.gzbgj.com/art/2020/2/18/art_7615_2068979.html',
+ 'publish_date': '2020-02-18',
+ 'title': '喜报！中国能建葛洲坝签约35亿元光伏发电项目'}
+2020-03-03 21:24:42 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:42 [cggc.pipelines] WARNING: {'content': ' 1月16日，中国能建葛洲坝国际公司与墨西哥BG '
+            'Titan能源矿产公司在京签署墨西哥1000MW光伏电站项目EPC合同协议书。该项目是葛洲坝集团在墨西哥签约的第一个大型光伏电站项目，也是近期在拉丁美洲签约的最大规模光伏电站项目，是葛洲坝集团推进新能源业务“走出去”的重要成果。公司副总经理陈向东参加签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/2001171618098306515.jpg',
+                 'www.gzbgj.com/picture/0/2001171618207793158.jpg'],
+ 'country': '墨西哥',
+ 'href': 'http://www.gzbgj.com/art/2020/1/17/art_7615_2055974.html',
+ 'publish_date': '2020-01-17',
+ 'title': '1000MW！公司签约墨西哥光伏电站项目'}
+2020-03-03 21:24:42 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:42 [cggc.pipelines] WARNING: {'content': ' '
+            '12月30日，中国能建葛洲坝国际公司与菲律宾联合水务公司在京签署菲律宾圣佩德罗市供水厂项目EPC合同，在菲律宾水务市场迈出了崭新的一步。这是公司践行集团专业化改造总体部署，积极推动非建业务“走出去”的又一成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/1912311644420726494.jpg'],
+ 'country': '菲律宾',
+ 'href': 'http://www.gzbgj.com/art/2019/12/31/art_7615_2045003.html',
+ 'publish_date': '2019-12-31',
+ 'title': '公司签约菲律宾圣佩德罗市供水厂项目'}
+2020-03-03 21:24:42 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:42 [cggc.pipelines] WARNING: {'content': ' '
+            '新年伊始，喜迎开门红。1月3日，在新任埃及驻华大使穆罕默德·巴德里阁下的见证下，中国能建葛洲坝集团与埃及孔雀投资公司在京签署埃及500MW光伏电站EPC合同。集团股份公司党委书记、董事长陈晓华出席签约仪式，葛洲坝国际公司党委书记、董事长吕泽翔，党委副书记、副董事长李萍莉参加签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/2001031928374638119.jpg',
+                 'www.gzbgj.com/picture/0/2001031928589071456.jpg',
+                 'www.gzbgj.com/picture/0/2001031930058994033.jpg'],
+ 'country': '埃及',
+ 'href': 'http://www.gzbgj.com/art/2020/1/3/art_7615_2047270.html',
+ 'publish_date': '2020-01-03',
+ 'title': '新年第一单！公司签约埃及500兆瓦光伏电站项目'}
+2020-03-03 21:24:42 [cggc.spiders.cggcSpider] WARNING: fail to next page
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: {'content': ' '
+            '11月25日，中国能建葛洲坝国际公司与AGILIDAD油气运输基础设施公司签署墨西哥科利马州油气储备输送项目EPC合同。项目的成功签约是葛洲坝集团继墨西哥萨卡特卡斯州工业园EPC项目后加大墨西哥市场深耕，推进油气业务“走出去”又一重要成果，将为中拉“一带一路”建设注入新动力。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911292033338165443.jpg',
+                 'www.gzbgj.com/picture/0/1911292033476803424.jpg'],
+ 'country': '墨西哥',
+ 'href': 'http://www.gzbgj.com/art/2019/11/29/art_7615_2027255.html',
+ 'publish_date': '2019-11-29',
+ 'title': 'CGGC签约墨西哥科利马州油气储备输送EPC项目'}
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: {'content': ' 当地时间 11月11日，在中国国家主席习近平和希腊总理米佐塔基斯的见证下，希腊MINOS '
+            '50MW光热发电项目多边合作协议成功签署。中国能建党委书记、董事长汪建平，中国工商银行董事长陈四清，英国Nur '
+            'Energie公司董事会主席Kevin Sara，希腊PRENECON公司首席执行官Dimitris '
+            'Bouras，在希腊总理府分别代表项目EPC联营体牵头方、项目融资方、项目开发商和属地合作方在协议上签字。这是国际多边合作及中国-中东欧“17+1”能源合作的重要成果，将为推动共建“一带一路”高质量发展注入新动力。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911121834225608250.jpg',
+                 'www.gzbgj.com/picture/0/1911130937239096879.jpg',
+                 'www.gzbgj.com/picture/0/1911121834476183158.jpg'],
+ 'country': '希腊',
+ 'href': 'http://www.gzbgj.com/art/2019/11/12/art_7615_2016301.html',
+ 'publish_date': '2019-11-12',
+ 'title': '中希两国领导人见证希腊MINOS 50MW光热发电项目签约'}
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: {'content': ' '
+            '11月7日，中国能建葛洲坝集团与锡兰电力局在科伦坡签署斯里兰卡莫拉高拉水电站土建标现汇项目合同。这是中资企业近五年在斯里兰卡签约的首个中大型电力项目，对有效缓解斯里兰卡电力短缺，防治洪灾，促进中斯两国绿色能源合作和发展具有重要意义。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911081542152237156.jpg'],
+ 'country': '斯里兰卡',
+ 'href': 'http://www.gzbgj.com/art/2019/11/8/art_7615_2013672.html',
+ 'publish_date': '2019-11-08',
+ 'title': '中国能建葛洲坝集团签约斯里兰卡莫拉高拉水电站项目'}
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: {'content': ' '
+            '近日，中国能建葛洲坝国际公司签署莱索托王国马菲腾特别经济区项目EPC框架合同协议书。这是公司践行集团专业化改造总体要求，加快推进海外工业园区等新兴业务，培育新的国际业务增长点的重要成果。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911201420131233943.jpg',
+                 'www.gzbgj.com/picture/0/1911201420325655045.png'],
+ 'country': '莱索托',
+ 'href': 'http://www.gzbgj.com/art/2019/11/20/art_7615_2021347.html',
+ 'publish_date': '2019-11-20',
+ 'title': 'CGGC签约莱索托工业园EPC项目'}
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: --|--|--|--|--|--|--|--|--|--|
+2020-03-03 21:24:43 [cggc.pipelines] WARNING: {'content': ' '
+            '11月14日，阿联酋乌姆盖万150MIGD海水淡化项目EPC合同签约仪式在阿联酋首都阿布扎比举行。中国葛洲坝集团股份公司党委书记、董事长陈晓华，ACWA '
+            'Power 董事局主席Mohammed Abunayyan出席签约仪式。',
+ 'content_img': ['www.gzbgj.com/picture/0/1911151413238733028.jpg',
+                 'www.gzbgj.com/picture/0/1911151413529223665.jpg'],
+ 'country': 'No Country Found',
+ 'href': 'http://www.gzbgj.com/art/2019/11/15/art_7615_2018357.html',
+ 'publish_date': '2019-11-15',
+ 'title': '全球Top5 海水淡化项目在阿联酋签约'}

@@ -15,4 +15,5 @@ class CggcItem(scrapy.Item):
     publish_date = scrapy.Field()
     content = scrapy.Field()
     content_img = scrapy.Field()
+    country = scrapy.Field()
     pass

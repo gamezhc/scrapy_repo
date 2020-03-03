@@ -7,6 +7,7 @@
 import logging
 import re
 import sqlite3
+from .ctry import ex_country
 # from scrapy.exceptions import DropItem
 
 logger = logging.getLogger(__name__)
@@ -22,11 +23,14 @@ class CggcPipeline(object):
         self.db_cur = self.db_conn.cursor()
         print("open database successfully" + "-"*10)
 
+    # 关闭数据库
     def close_spider(self, spider):
         self.db_conn.close()
         print("close database successfully" + "*" * 10)
 
     def process_item(self, item, spider):
+        # 提取title中的国家名
+        item["country"] = ex_country(item["title"])
         # 对提取出来的content进行处理
         item["content"] = self.process_content(item["content"])
         if spider.name == "cggcSpider":
@@ -50,11 +54,16 @@ class CggcPipeline(object):
         return content
 
     def insert_db(self, item):
-        insert_sql = "INSERT INTO cggc (title, publish_date, content) " \
-                     "VALUES('{}', '{}' ,'{}')".format(item['title'], item['publish_date'], item['content'])
+        insert_sql = "INSERT INTO cggc (title, country, publish_date, content) " \
+                     "VALUES('{}', '{}', '{}' ,'{}')".format(
+                                                             item['title'],
+                                                             item['country'],
+                                                             item['publish_date'],
+                                                             item['content']
+                                                             )
 
         self.db_cur.execute('CREATE TABLE IF NOT EXISTS cggc '
-                            '(title, publish_date, content, content_img)')
+                            '(title, country, publish_date, content, content_img)')
         # print(insert_sql)
         self.db_cur.execute(insert_sql)
         self.db_conn.commit()

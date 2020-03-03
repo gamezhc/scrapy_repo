@@ -82,7 +82,7 @@ class CggcspiderSpider(scrapy.Spider):
                 meta={"items": item},
             )
         #  进行翻页操作
-        if self.start <= 120:
+        if self.start <= 60:
             # 翻页
             self.start += 60
             self.end += 60
